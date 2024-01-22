@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Muṣḥaf",
+  "version": "1.0.0",
+  "description": "A Dashboard that sets background image to random muslim image and shows random Quran verse and their translation.",
+  "action": {
+    "default_icon": "icon-mosque.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "./index.html"
+  }
+}
