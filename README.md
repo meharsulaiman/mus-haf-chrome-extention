@@ -1,8 +1,17 @@
-# React + Vite
+# Chrome Extention named as Mus'haf
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Alt Text](https://github.com/meharsuleiman/mus-haf-chrome-extention/blob/main/Sample-image.png?raw=true)
 
-Currently, two official plugins are available:
+This custom Chrome dashboard is designed to be displayed when a new tab is opened. It dynamically fetches a random Muslim image from Unsplash and a random verse from the Quranic API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# How to Setup
+
+```
+
+npm install
+npm run build
+
+```
+
+this will create dist folder you have to load that dist folder in chrome extentions panel.
